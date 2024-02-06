@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<timetable ascttversion="2017.6.10" importtype="database" options="idprefix:MyApp">
+   <teachers options="import:disable,canadd,canremove,canupdate,primarytt,silent" columns="id,name,short,htmlexportlink">
+      <teacher id="*1" name="Isadora" short="Isadora" htmlexportlink="teachers_0.html?frame=0"/>
+      <teacher id="*2" name="Michele" short="Michele" htmlexportlink="teachers_0.html?frame=1"/>
+      <teacher id="*3" name="Claudia" short="Claudia" htmlexportlink="teachers_0.html?frame=2"/>
+      <teacher id="*4" name="Iara" short="Iara" htmlexportlink="teachers_0.html?frame=3"/>
+      <teacher id="*5" name="Nelson" short="Nelson" htmlexportlink="teachers_0.html?frame=4"/>
+      <teacher id="*6" name="Clarice" short="Clarice" htmlexportlink="teachers_0.html?frame=5"/>
+      <teacher id="*7" name="Vando" short="Vando" htmlexportlink="teachers_0.html?frame=6"/>
+      <teacher id="*8" name="Daniela" short="Daniela" htmlexportlink="teachers_0.html?frame=7"/>
+      <teacher id="*9" name="Dinah" short="Dinah" htmlexportlink="teachers_0.html?frame=8"/>
+      <teacher id="*10" name="João Augusto" short="João" htmlexportlink="teachers_0.html?frame=9"/>
+      <teacher id="*11" name="Tatiane" short="Tati" htmlexportlink="teachers_0.html?frame=10"/>
+      <teacher id="*12" name="Silmara" short="Silmara" htmlexportlink="teachers_0.html?frame=11"/>
+      <teacher id="*13" name="Renato" short="Renato" htmlexportlink="teachers_0.html?frame=12"/>
+      <teacher id="*14" name="Marcia" short="Marcia" htmlexportlink="teachers_0.html?frame=13"/>
+      <teacher id="*15" name="Leandro" short="Leandro" htmlexportlink="teachers_0.html?frame=14"/>
+      <teacher id="*16" name="Allan" short="Allan" htmlexportlink="teachers_0.html?frame=15"/>
+      <teacher id="*17" name="Joyce" short="Joyce" htmlexportlink="teachers_0.html?frame=16"/>
+      <teacher id="*18" name="Hokama Luciana" short="Hokama" htmlexportlink="teachers_0.html?frame=17"/>
+      <teacher id="*19" name="Matemática 3" short="Mat 3" htmlexportlink="teachers_0.html?frame=18"/>
+   </teachers>
+   <classes options="import:disable,canadd,canremove,canupdate,primarytt,silent" columns="id,name, short,htmlexportlink">
+      <class id="*1" name="6A" htmlexportlink="index.html?frame=0"/>
+      <class id="*2" name="6B" htmlexportlink="index.html?frame=1"/>
+      <class id="*3" name="7A" htmlexportlink="index.html?frame=2"/>
+      <class id="*4" name="7B" htmlexportlink="index.html?frame=3"/>
+      <class id="*5" name="8A" htmlexportlink="index.html?frame=4"/>
+      <class id="*6" name="9A" htmlexportlink="index.html?frame=5"/>
+      <class id="*7" name="9B" htmlexportlink="index.html?frame=6"/>
+      <class id="*8" name="1A" htmlexportlink="index.html?frame=7"/>
+      <class id="*9" name="2A" htmlexportlink="index.html?frame=8"/>
+      <class id="*10" name="3A" htmlexportlink="index.html?frame=9"/>
+   </classes>
+   <subjects options="import:disable,canadd,canremove,canupdate,primarytt,silent" columns="id,name,short,htmlexportlink">
+      <subject id="*1" name="Matematica" short="Mat" htmlexportlink=""/>
+      <subject id="*2" name="Lingua Portuguesa" short="LP" htmlexportlink=""/>
+      <subject id="*3" name="Biologia" short="Bio" htmlexportlink=""/>
+      <subject id="*4" name="Artes" short="Art" htmlexportlink=""/>
+      <subject id="*5" name="História" short="Hist" htmlexportlink=""/>
+      <subject id="*6" name="Geografia" short="Geo" htmlexportlink=""/>
+      <subject id="*7" name="Ciências" short="Cien" htmlexportlink=""/>
+      <subject id="*8" name="Física" short="Fis" htmlexportlink=""/>
+      <subject id="*9" name="Educação Fisica" short="Ed Fis" htmlexportlink=""/>
+      <subject id="*10" name="Orientação" short="Orien" htmlexportlink=""/>
+      <subject id="*11" name="Projeto de Vida" short="PV" htmlexportlink=""/>
+      <subject id="*12" name="Sociologia" short="Soc" htmlexportlink=""/>
+      <subject id="*13" name="Tecnologia Inovação" short="Tec Ino" htmlexportlink=""/>
+      <subject id="*14" name="Práticas" short="Prat" htmlexportlink=""/>
+      <subject id="*15" name="Eletivas" short="Elet" htmlexportlink=""/>
+      <subject id="*16" name="Filosofia" short="Filo" htmlexportlink=""/>
+      <subject id="*17" name="Química" short="Quim" htmlexportlink=""/>
+      <subject id="*18" name="Redação" short="Red" htmlexportlink=""/>
+      <subject id="*19" name="Inglês" short="Ing" htmlexportlink=""/>
+      <subject id="*20" name="Aceleração" short="Acele" htmlexportlink=""/>
+      <subject id="*21" name="Itinerário" short="Itine" htmlexportlink=""/>
+      <subject id="*22" name="Educação Financeira" short="Ed Fin" htmlexportlink=""/>
+      <subject id="*23" name="Tecnologia Robótica" short="Tec Rob" htmlexportlink=""/>
+      <subject id="*24" name="Clube" short="Club" htmlexportlink=""/>
+      <subject id="*25" name="Tutoria" short="Tut" htmlexportlink=""/>
+   </subjects>
+   <classrooms options="import:disable,canadd,canremove,canupdate,primarytt,silent" columns="id,name,short,htmlexportlink"/>
+   <students options="import:disable,canadd,canremove,canupdate,primarytt,silent" columns="id,classid,name,htmlexportlink"/>
+   <Settings bPrintClass="1" bPrintTeacher="1" bPrintClassroom="1" bPrintStudents="0" strPrintClass="Turmas" strPrintTeacher="Professores" strPrintClassroom="Salas" strPrintStudent="Estudantes" strPrintSummary="Horários resumidos" bPrintSummaryClass="1" bPrintSummaryTeacher="1" bPrintSummaryClassroom="1" strPrintSummaryClass="Turmas" strPrintSummaryTeacher="Professores" strPrintSummaryClassroom="Salas" bSeparateWeeksTerms="0" nWeeks="0" nTerms="0">
+      <Weeks W0="Todas as semanas" W1="Semana A"/>
+      <Terms T0="Todo o ano" T1="Duração 1"/>
+      <strPrintWeek>Semana</strPrintWeek>
+      <strPrintTerm>Duração</strPrintTerm>
+   </Settings>
+</timetable>
